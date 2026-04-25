@@ -12,6 +12,22 @@ color:#333;
 line-height:1.6;
 }
 
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
 nav{
 background:#222;
 padding:10px;
@@ -37,7 +53,6 @@ nav ul li a:hover{
 color:#00bcd4;
 }
 
-/* Header */
 header{
 background:#00bcd4;
 color:white;
